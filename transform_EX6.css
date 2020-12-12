@@ -1,0 +1,18 @@
+@charset "utf-8";
+*{padding: 0px;margin: 0px;box-sizing: border-box;}
+body{}
+/*Strat Section*/
+section{width: 100%;height: 100vh;background-color:rgb(144,230,255);overflow: hidden;}
+    /*===Strat Sec_top===*/
+section .sec_top{width: 100%;height: 50vh;position: relative;z-index: 1;overflow: hidden;}
+section .sec_top .rectangle_1{width: 50%;height: 100%;position: absolute;right: 0px;background-color:rgb(67,201,236);transform: skewX(-30deg) translateX(14.3VH);box-shadow: -5PX 0PX 20px 0px black;z-index: 4;}
+section .sec_top .triangle_1{width: 50%;height: 100%;position: absolute;right: 0px;background-color:rgb(67,201,236);transform:rotate(0deg) skewX(35deg)translateX(2.3VH);box-shadow: -5PX 0PX 20px 0px black;z-index: 3;}
+section .sec_top .triangle_2{width: 50%;height: 100%;position: absolute;right: 0px;background-color:rgb(101,101,101);transform:skewX(-30deg) translateX(-27.7VH);box-shadow: -5PX 0PX 20px 0px black;z-index: 2;}
+section .sec_top .triangle_3{width: 50%;height: 100%;position: absolute;right: 0px;background-color:rgb(101,101,101);transform:rotate(0deg) skewX(35deg)translateX(-24.7VH);box-shadow: -5PX 0PX 20px 0px black;z-index: 1;}
+    /*===Strat Sec_bottom===*/
+section .sec_bottom{width: 100%;height: 50vh;position: relative;z-index: 2;}
+section .sec_bottom .rectangle_1{width: 50%;height: 100%;position: absolute;right: 0px;background-color:rgb(67,201,236);transform: skewX(-30deg) translateX(14.3VH);box-shadow: -5PX 0PX 20px 0px black;z-index: 4;}
+section .sec_bottom .triangle_1{width: 50%;height: 100%;position: absolute;right: 0px;background-color:rgb(101,101,101);transform:rotate(0deg) skewX(35deg)translateX(2.3VH);box-shadow: -5PX 0PX 20px 0px black;z-index: 3;}
+section .sec_bottom .triangle_2{width: 50%;height: 100%;position: absolute;right: 0px;background-color:rgb(101,101,101);transform:skewX(-30deg) translateX(-27.7VH);box-shadow: -5PX 0PX 20px 0px black;z-index: 2;}
+section .sec_bottom .triangle_3{width: 50%;height: 100%;position: absolute;right: 0px;background-color:rgb(101,101,101);transform:rotate(0deg) skewX(35deg)translateX(-24.7VH);box-shadow: -5PX 0PX 20px 0px black;z-index: 1;}
+/*End Section*/
